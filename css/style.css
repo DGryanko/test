@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  font-family: "HelveticaNeueCyr";
+  border: none;
+}
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --button-bcg: #f5f4fa;
+  --border: #eeeeee;
+  --adw: #2f303a;
+}
+@font-face {
+    font-family: "HelveticaNeueCyr"; 
+    src: url("../fonts/HelveticaNeueCyr-Light.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+/* COMMON */
+.container {
+    max-width: 1280px;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+/* Styles */
+.poster {
+  text-align: center;
+  background: #456456;
+  width: 100%;
+  height: 720px;
+  background-image: url(../img/maldives.png);
+  background-repeat: no-repeat ;
+  background-position: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+ body{
+  background: rgba(9, 62, 100, 0.15);
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  font: 'HelveticaNeueCyr';
+  color: var(--white-color);
+  text-align: center;
+  justify-content: space-between;
+}
+.head_block_1 {
+    width: 260px;
+}
+.head_block_2 {
+    width: 700px;
+}
+.head_block_3 {
+    width: 165px;
+}
+.head_block_4 {
+    width: 44px;
+}
+.head_block_5 {
+    width: 120px;
+}
